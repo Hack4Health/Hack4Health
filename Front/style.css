@@ -1,0 +1,71 @@
+#title{
+    text-align: center;
+    padding-top: 2cm;
+    font-size: 20mm;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 6cm;
+}
+
+.wrapper2{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    right: 28%;
+    margin-top: 10cm;
+}
+.tree{
+    position: relative;
+    left: 540px;
+    bottom: 85px;
+}
+
+.ground{
+    position: absolute;
+    z-index: -1;
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    padding-top: 10px
+}
+
+.inputs {
+    display: flex;
+    justify-content:center;
+    margin-right: 1.5cm;
+        
+}
+
+.buttons {
+    display: flex;
+   
+}
+
+.button1,.button2{
+    font-size: 1cm;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+
+.button1 > button{
+    font-size: 30px;
+}
+
+.button2 > button{
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
