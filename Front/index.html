@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tree</title>
+</head>
+
+<body style="background-color:#aadbfd;">
+    <div id="title">
+        Welcome
+    </div>
+
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div id="addingGoals" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeGoal()">×</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+    </div>
+
+    <div class = wrapper2>   
+     
+        <img class="tree" src="images/sap.png" width="300" height="300"/>
+ 
+  
+        <img class="ground" src="images/ground.png" width="750" height="500"/>
+
+    </div>
+
+
+    <div class = "wrapper">
+        <div class = "buttons">
+            <div class = "button1" onclick="openNav()">
+                 <button> New Goal </button>
+            </div>
+
+            <div class = "button2" onclick="addingGoal()">
+                 <button> View Goals  </button>
+            </div>
+        </div>
+
+     </div>     
+
+
+    <div class = "container">
+     <form >
+        <div>
+          <label for="uname">Enter your task: </label>
+          <input type="text" id="uname" name="name">
+        </div>
+
+        <div>
+          <button>Submit</button>
+        </div>
+     </form>
+    </div>
+    <script src="./scripts.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+
+
+
+</html>
